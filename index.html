@@ -510,31 +510,35 @@
           </use>
         </svg>
       </button>
-      <div class="forma-">
+      <div class="forma-modal">
         <form>
-          <h1>Залиште свої дані, ми вам передзвонимо</h1>
-          <label name="name">
-            <p>Ім'я</p>
-            <input type="name" name="name">
+          <h1 class="titel-modal">Залиште свої дані, ми вам передзвонимо</h1>
+          <label name="name" class="label-text">
+            <p class="modal-text">Ім'я</p>
+            <input type="name" name="name" class="modal-input border-input">
           </label>
-          <label name="tel">
-            <p>Телефон</p>
-            <input type="tel" name="tel">
+          <label name="tel" class="label-text">
+            <p class="modal-text">Телефон</p>
+            <input type="tel" name="tel" class="modal-input ">
           </label>
-          <label name="email">
-            <p>Пошта</p>
-            <input type="email" name="email">
+          <label name="email" class="label-text">
+            <p class="modal-text">Пошта</p>
+            <input type="email" name="email" class="modal-input ">
           </label>
-          <label name="coments">
-            <p>Коментар</p>
-            <input type="textarea" name="coments" placeholder="Введіть текст">
+          <label name="coments" class="label-text">
+            <p class="modal-text">Коментар</p>
+            <input type="textarea" name="coments" class="modal-textarea" placeholder="Введіть текст">
           </label>
-          <div><input type="checkbox" name="checkbox" id="checkbox">
-            <label for="checkbox">
-              <p>Погоджуюся з розсилкою та приймаю Умови договору</p>
-            </label>
+          <div>
+            <div class="check">
+              <input type="checkbox" name="checkbox" id="checkbox">
+              <label for="checkbox" class="modal-check">
+                Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a>
+              </label>
+            </div>
+
           </div>
-          <button type="submit">Відправити</button>
+          <button type="submit" class="submit-modal">Відправити</button>
         </form>
       </div>
 
