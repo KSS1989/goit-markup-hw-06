@@ -634,6 +634,8 @@
   }
 
   .submit-icon {
+    top: 13px;
+    margin-left: 10px;
     width: 24px;
     height: 24px;
     fill: var(--fon-color);
