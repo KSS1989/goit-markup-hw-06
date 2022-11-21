@@ -912,10 +912,6 @@
     color: var(--text-color);
   }
 
-  .modal-text {
-    margin-bottom: 4px;
-  }
-
   .modal-check {
     line-height: 1.71;
     color: var(--text-color);
