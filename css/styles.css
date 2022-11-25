@@ -941,17 +941,31 @@
   .check {
     display: flex;
     justify-content: center;
-
+    margin-bottom: 30px;
   }
 
   .icon-check {
+    display: inline-block;
     width: 16px;
     height: 15px;
+  }
 
+  .icon-icon-check {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+  }
+
+  .checkbox:checked+.icon-check {
+    /* background-color: red; */
+    background-image: url(../images/icon-check1.svg);
+    background-size: contain;
+    background-origin: border-box;
   }
 
   .checkbox {
     appearance: none;
+
   }
 
   .form-submit {
