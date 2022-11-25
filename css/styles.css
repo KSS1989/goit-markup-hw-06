@@ -958,7 +958,7 @@
 
   .checkbox:checked+.icon-check {
     /* background-color: red; */
-    background-image: url(../images/icon-check1.svg);
+    background-image: url(../images/icon-modal.svg#icon-icon-check);
     background-size: contain;
     background-origin: border-box;
   }
