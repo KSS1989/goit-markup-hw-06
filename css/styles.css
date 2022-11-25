@@ -935,7 +935,7 @@
 
   .modal-check {
     color: var(--text-color);
-    margin-left: 9px;
+
   }
 
   .check {
@@ -957,10 +957,11 @@
   }
 
   .checkbox:checked+.icon-check {
-    /* background-color: red; */
-    background-image: url(../images/icon-modal.svg#icon-icon-check);
+    background-color: red;
+    background-image: url(../images/icon-check1.svg);
     background-size: contain;
     background-origin: border-box;
+    border-color: transparent;
   }
 
   .checkbox {
