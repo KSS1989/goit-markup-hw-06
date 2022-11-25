@@ -957,11 +957,8 @@
   }
 
   .checkbox:checked+.icon-check {
-    background-color: red;
     background-image: url(../images/icon-check1.svg);
-    background-size: contain;
-    background-origin: border-box;
-    border-color: transparent;
+    fill: var(--logo-color);
   }
 
   .checkbox {
