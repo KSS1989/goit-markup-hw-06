@@ -847,7 +847,6 @@
   .modal {
     position: absolute;
     width: 528px;
-    height: 581px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -898,7 +897,7 @@
 
   .titel-modal {
     font-weight: 700;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
@@ -908,8 +907,9 @@
   .modal-input {
     display: inline-block;
     width: 448px;
-    min-height: 40px;
+    height: 40px;
     padding: 0 0 0 40px;
+    margin-top: 4px;
     outline: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -923,6 +923,7 @@
     width: 448px;
     height: 120px;
     padding: 12px 16px;
+    margin-top: 4px;
     resize: none;
     outline: none;
     cursor: pointer;
@@ -947,11 +948,10 @@
   }
 
   .form-tel+.form-tel {
-    padding-top: 10px;
+    margin-top: 10px;
   }
 
   .form-text {
-    padding-bottom: 4px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -979,8 +979,8 @@
   .check {
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
-    padding-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
   }
 
   .icon-check {
